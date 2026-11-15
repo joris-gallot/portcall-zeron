@@ -1,6 +1,6 @@
 # portcall for Zeron
 
-A Zeron plugin for [portcall](https://github.com/joris-gallot/portcall): the dev servers portcall runs, beside the chat.
+A [Zeron](https://zeron.sh) plugin for [portcall](https://github.com/joris-gallot/portcall): the dev servers portcall runs, beside the chat.
 
 - **In a chat's panel**, under its branch: "Dev servers 2/5 running" for the project of the session's folder. A click opens its services in a tab.
 - **In the sidebar**, a Dev servers page: every project portcall knows.
