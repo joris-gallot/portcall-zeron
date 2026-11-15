@@ -10,6 +10,7 @@
     "files.read",
     "panel.tabs",
     "pages.add",
+    "links.open",
     "commands"
   ],
   "commands": [
@@ -19,13 +20,13 @@
     "key": "anIS1NVNACfKO1vlHnUjMj96bH5TxNpPQQ7vf3Fnqz8",
     "files": {
       "LICENSE": "c45af0e552007d11cbd614f64a7a5125b3fcd4851e651e5ad11de0c1b4eb3c23",
-      "README.md": "a352921c48023ae4d27aea574e7dd8b6ffafda7b85143dd956bdeeaeb644b860",
+      "README.md": "64219db974fc7a99db4aad5bc0a818be9b4a019640835b4f01fe0e686e509071",
       "init.luau": "eb8a4939b7811169383e7226dcb21cb4449f4684fa6ee4b5b03275b92d3f9a3c",
-      "locales/en.json": "29599a0747eaee7f63833d3d4d50cd3a1b5c4df8d3e9888de52a5bfe2d08762e",
+      "locales/en.json": "332fb6fb1035aaedae1b3e290bb578b9e1ccae5d0a381aa4cf4cba7875804d37",
       "portcall.luau": "a0110d2f6543338ac18a9097a654cf492be50ce891804dd45a03201c92cacc8f",
-      "services.luau": "591672b0e3b61d7b6fe2223adca6b49780eb8c156826199a51904c4788cda07e",
+      "services.luau": "87441a1b45f8fd9b490cb28aefe370030b3f4417d31c0d2ec4a7679eaf74774a",
       "zeron.luau": "178b79b55566c9643b26181539b8e1348482179a169da98ba384cd66f3f8a483"
     },
-    "sig": "5jNTSXc49IGYnnL40uknIuj1vDYPz_ngtK0z3UQ98P57KfAYrot4olW1TRYe5-P2YmQBepiNmXKZXFJpYGalBw"
+    "sig": "OGSyULPJL_BpoVF3odDtzVkbJ8bih408UiCjLUS47J9C7-h2HyQWnSSzPOckRFWfhAH9RIUQQ8Yzw6ER5TbdDA"
   }
 }

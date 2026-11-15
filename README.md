@@ -5,7 +5,7 @@ A [Zeron](https://zeron.sh) plugin for [portcall](https://github.com/joris-gallo
 - **In a chat's panel**, under its branch: "Dev servers 2/5 running" for the project of the session's folder. A click opens its services in a tab.
 - **In the sidebar**, a Dev servers page: every project portcall knows.
 
-Each service shows its state, its port and what portcall adds (an exit code, who holds the port, where it listens instead), with Start, Stop, Restart and its error lines. Ports a project listens on without declaring them are listed under it.
+Each service shows its state, its port and what portcall adds (an exit code, who holds the port, where it listens instead), with Open (its URL, where Zeron opens your links), Start, Stop, Restart and its error lines. Ports a project listens on without declaring them are listed under it.
 
 The plugin only runs the portcall CLI (`portcall status --json`, `up`, `down`, `restart`, `logs --errors`), as an agent would.
 
@@ -14,7 +14,7 @@ The plugin only runs the portcall CLI (`portcall status --json`, `up`, `down`, `
 1. Install portcall: `npm i -g portcall` (Node 20.19+).
 2. In Zeron, Settings → Plugins → Install…, from `joris-gallot/portcall-zeron`.
 
-It asks to run `portcall` as you (`commands`), and to read your sessions and their folders (`sessions.read`, `files.read`) to find each chat's project.
+It asks to run `portcall` as you (`commands`), to read your sessions and their folders (`sessions.read`, `files.read`) to find each chat's project, and to open a server's URL (`links.open`).
 
 ### portcall must be on your login shell's PATH
 

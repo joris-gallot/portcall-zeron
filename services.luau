@@ -82,6 +82,20 @@ local Row = ui.component(function(props: any): Node
 
 	local function controls(state: string): Node
 		local list: { Node } = {}
+		-- Its URL, where links open (Settings → Links): once it answers on its port.
+		if state == "running" and not props.external then
+			table.insert(list, Button {
+				zeron.t("action.open"),
+				tone = "secondary",
+				size = "sm",
+				on_click = function()
+					local url = now(true).url
+					if type(url) == "string" then
+						zeron.open_url(url)
+					end
+				end,
+			})
+		end
 		for _, verb in verbs({ state = state, external = props.external }) do
 			table.insert(list, Button {
 				zeron.t(`action.{verb}`),

@@ -24,6 +24,7 @@
     "restarting": "restarting"
   },
   "action": {
+    "open": "Open",
     "up": "Start",
     "down": "Stop",
     "restart": "Restart",
