@@ -1,0 +1,48 @@
+{
+  "page": {
+    "title": "Dev servers",
+    "description": "Every project portcall knows, and how its servers stand.",
+    "empty_title": "No projects yet",
+    "empty_body": "Run any portcall command once inside a project with a portcall.json."
+  },
+  "panel": {
+    "row": "Dev servers",
+    "tab": "Dev servers"
+  },
+  "state": {
+    "running": "running",
+    "starting": "starting",
+    "crashed": "crashed",
+    "stopped": "stopped",
+    "unmanaged": "outside portcall",
+    "taken": "port taken",
+    "elsewhere": "other checkout"
+  },
+  "busy": {
+    "starting": "starting",
+    "stopping": "stopping",
+    "restarting": "restarting"
+  },
+  "action": {
+    "up": "Start",
+    "down": "Stop",
+    "restart": "Restart",
+    "errors": "Errors",
+    "hide_errors": "Hide errors",
+    "refresh": "Refresh"
+  },
+  "info": {
+    "external": "external",
+    "no_errors": "No errors in its log.",
+    "undeclared_title": "Undeclared ports",
+    "undeclared_body": "Started inside the project, listening on ports portcall.json does not declare: a server on the wrong port, or a forgotten one."
+  },
+  "failed": {
+    "title": "portcall didn't answer",
+    "missing": "portcall isn't installed: npm i -g portcall",
+    "action": "{service}: {detail}"
+  },
+  "command": {
+    "refresh": "Refresh dev servers"
+  }
+}
